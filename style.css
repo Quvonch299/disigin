@@ -72,23 +72,23 @@ margin-left: 30px;
     align-items: center;
     margin-top: 200px;
 }
-    .iteam{
+    .iteam_hero{
         text-align: center;
     }
-.iteam h2{
+.iteam_hero h2{
     margin-bottom: 70px;
     font-size: 60px;
     color: #eb760f;
     font-family: var(--Playfair);
 
 }
-.iteam p{
+.iteam_hero p{
      margin-bottom: 50px;
    
     color: #f0edeb;
     font-family: var(--Playfair)
 }
-.iteam .input_search{
+.iteam_hero .input_search{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -172,4 +172,9 @@ font-family: var(--Playfair);
 .right1{
     margin-left: 50px;
     margin-right: 50px;
+}
+.sec_11 button:hover{
+background: #f00000;
+background: linear-gradient(90deg, rgba(240, 0, 0, 1) 35%, rgba(0, 0, 0, 1) 71%);
+transition: all 0.5s ease;
 }
