@@ -163,6 +163,12 @@ font-family: var(--Playfair);
     margin-top: 30px;
     color: white;
 }
+.left1 button:hover{
+background: #f00000;
+background: linear-gradient(90deg, rgba(240, 0, 0, 1) 35%, rgba(0, 0, 0, 1) 71%);
+transition: all 0.5s ease;
+}
+
 .sec_contant2{
     display: flex;
     margin-top: 200px;
@@ -172,9 +178,4 @@ font-family: var(--Playfair);
 .right1{
     margin-left: 50px;
     margin-right: 50px;
-}
-.sec_11 button:hover{
-background: #f00000;
-background: linear-gradient(90deg, rgba(240, 0, 0, 1) 35%, rgba(0, 0, 0, 1) 71%);
-transition: all 1.5s ease;
 }
